@@ -1,4 +1,4 @@
-# AI Code Reviewer 🤖💻
+# AI Code Reviewer 🤖
 
 ## 📌 Table of Contents
 - [Overview](#overview)
@@ -8,7 +8,7 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 
----
+
 
 ## Overview
 Welcome to **AI Code Reviewer**, your smart coding companion!  
@@ -18,7 +18,7 @@ Whether it’s a simple arithmetic function or a complex algorithm, AI Code Revi
 
 Empower your coding with insights from a senior AI code reviewer!
 
----
+
 
 ## ✨ Major Highlights
 - **Senior AI Code Reviewer** – Acts like a developer with 7+ years of experience  
@@ -28,7 +28,7 @@ Empower your coding with insights from a senior AI code reviewer!
 - **Readable & Maintainable Code** – Ensures DRY, SOLID, and modern standards  
 - **Easy to Use** – Simple input area to paste your code and submit for review  
 
----
+
 
 ## Screenshots
 
@@ -42,7 +42,7 @@ Empower your coding with insights from a senior AI code reviewer!
 
 <img width="945" alt="AI Code Reviewer Screenshot 5" src="https://github.com/user-attachments/assets/fb52d444-3f47-41c1-8a48-db90e326352b" />
 
----
+
 
 ## Getting Started
 Follow these steps to set up the project locally:
@@ -62,7 +62,7 @@ Follow these steps to set up the project locally:
 4️⃣ Run the app
     npm start
     Open your browser and visit:
-   👉 http://localhost:3000
+     http://localhost:3000
 
 
 Usage
@@ -70,14 +70,14 @@ Usage
 Paste any code snippet in the input area
 Click the Submit button
 You’ll receive an AI-generated review including:
-✅ Best practices followed
-❌ Issues or errors detected
-💡 Suggestions for improvement
+  - Best practices followed
+  - Issues or errors detected
+  - Suggestions for improvement
 
 
 Contributing
 
-Contributions are welcome! 🎉
+Contributions are welcome! 
 To contribute:
 1. Fork the repository
 2. Create a feature branch:
