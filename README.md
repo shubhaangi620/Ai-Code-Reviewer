@@ -43,6 +43,8 @@ Empower your coding with insights from a senior AI code reviewer!
 <img width="945" alt="AI Code Reviewer Screenshot 5" src="https://github.com/user-attachments/assets/fb52d444-3f47-41c1-8a48-db90e326352b" />
 
 
+https://github.com/user-attachments/assets/9c1e09b0-592b-40cf-8b32-1a4fec11382b
+
 
 ## Getting Started
 Follow these steps to set up the project locally:
