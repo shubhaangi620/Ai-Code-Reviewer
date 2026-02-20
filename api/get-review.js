@@ -1,6 +1,12 @@
-const aiService = require("../services/ai.service");
+import aiService from "../backend/src/services/ai.service.js"; 
+// adjust path if your service file name is different
 
-module.exports.getReview = async (req, res) => {
+export default async function handler(req, res) {
+
+  if (req.method !== "POST") {
+    return res.status(405).json({ error: "Method Not Allowed" });
+  }
+
   console.log("body:", req.body);
 
   const { code } = req.body;
@@ -11,7 +17,9 @@ module.exports.getReview = async (req, res) => {
 
   try {
     const response = await aiService(code);
-    return res.json({ review: response });
+
+    return res.status(200).json({ review: response });
+
   } catch (err) {
     console.error("Gemini error:", err.message);
 
@@ -20,4 +28,4 @@ module.exports.getReview = async (req, res) => {
       details: err.message
     });
   }
-};
+}
