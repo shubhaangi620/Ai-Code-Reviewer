@@ -1,0 +1,15 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "description": "- [Overview](#overview)\r - [Major Highlights](#-major-highlights)\r - [Screenshots](#screenshots)\r - [Getting Started](#getting-started)\r - [Usage](#usage)\r - [Contributing](#contributing)",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1"
+  }
+}

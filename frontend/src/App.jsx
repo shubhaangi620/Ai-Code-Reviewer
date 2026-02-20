@@ -22,7 +22,7 @@ function App() {
   async function reviewCode() {
     try {
       const response = await axios.post(
-        'http://localhost:3000/ai/get-review',
+        "/api/get-review",
         { code }
       );
 

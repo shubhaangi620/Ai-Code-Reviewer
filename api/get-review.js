@@ -1,4 +1,4 @@
-import aiService from "../backend/src/services/ai.service.js"; 
+const aiService = require("../backend/src/services/ai.service");
 // adjust path if your service file name is different
 
 export default async function handler(req, res) {
