@@ -14,7 +14,7 @@ module.exports = async function handler(req, res) {
   }
 
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-8b-001" });
+    const model = genAI.getGenerativeModel({ model:  "gemini-2.0-flash-lite"  });
     const prompt = `Review the following code for quality and improvements:\n\n${code}`;
     const result = await model.generateContent(prompt);
     const response = await result.response;
